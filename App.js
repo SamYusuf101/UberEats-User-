@@ -3,12 +3,14 @@ import { StyleSheet, View, } from 'react-native';
 import HomeScreen from './src/screen/HomeScreen';
 import RestaurantDetailScreen from './src/screen/RestaurantDetailScreen';
 import DishDetailScreen from './src/screen/DishDetailScreen';
+import Basket from './src/screen/Basket';
+import OrderScreen from './src/screen/OrderScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-    <DishDetailScreen/>
-    <StatusBar style= "light" />
+    <OrderScreen />
+    <StatusBar style= "dark" />
     </View>
     
     
