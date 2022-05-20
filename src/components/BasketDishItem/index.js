@@ -15,12 +15,7 @@ const BasketDishItem = ({BasketDish}) => {
 };
 
 const styles = StyleSheet.create({
-    page: {
-        flex: 1,
-        width: "100%",
-        paddingVertical:50,
-        padding: 10
-    },
+   
     itemsNum: {
         fontSize:15,
         fontWeight: '400',
@@ -34,13 +29,7 @@ const styles = StyleSheet.create({
         marginLeft:'auto'
 
     },
-    yourStyle: {
-        fontSize:15,
-        fontWeight: '500',
-        padding:5,
-        marginVertical:5,
-        top: 6
-    },
+    
     quantityContainer: {
         backgroundColor:'grey',
         borderRadius:10,
@@ -49,21 +38,7 @@ const styles = StyleSheet.create({
         paddingHorizontal:5
 
     },
-    button: {
-        backgroundColor: "black",
-        marginTop:"auto",
-        padding:20,
-        borderRadius:20,
-        alignItems:'center',
-
-
-    },
-    buttonText: {
-        color:'white',
-        fontWeight:'600',
-        fontSize:20
-
-    },
+   
     row: {
         flexDirection:'row',
         alignItems: 'center',
@@ -77,21 +52,13 @@ const styles = StyleSheet.create({
         marginHorizontal:20
 
     },
-    seperator: {
-        height:1,
-        backgroundColor:"grey",
-        marginVertical:40
-
-    },
+  
     name: {
         fontSize:25,
         fontWeight:"600"
 
     },
-    description: {
-        color:"grey"
-
-    }
+    
 })
 
 
