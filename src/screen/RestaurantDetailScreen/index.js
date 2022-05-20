@@ -16,7 +16,7 @@ const RestaurantDetailPage = () => {
   const navigation = useNavigation(); 
 
   const id = route.params?.id;
-  console.warn(id);
+  
 
   return (
     <View style={styles.page}>
