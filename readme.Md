@@ -1,12 +1,12 @@
 # Project Description
 
-This is a Front-End User side of the Uber-Eats app. User can search through different restaurants and see availabe dish, Add to basket and view order. I built the backend using aws amplify....contact me for the backend  
+This is a Front-End User side of the Uber-Eats app. User can search through different restaurants and see availabe dish, Add to basket and view order. I built the backend using aws amplify....contact me to get the full app connected to the backend (aws-amplify)
 
-#Installation
+# Installation
 
 Please set up a React Native development environment if you have not already done so.
 You will also need to install dependencies:
-npm i\
+npm i
 
 
 # Running iOS on a Mac via a simulator
