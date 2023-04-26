@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
         marginHorizontal: 20,
         borderBottomColor: 'grey',
-        borderBottomWidth: 1,
+        borderBottomWidth: 2,
         flexDirection: 'row'
     },
     image: {
